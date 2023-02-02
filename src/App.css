@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+.App {
+  height: 700px;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+form {
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 12px;
+}
+
+input,
+button {
+  height: 40px;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #fcf9f9;
+  border: #d3d3d3 1px solid;
+  padding-left: 5px;
+}
+
+button {
+  background-color: #5c47d3;
+  color: white;
+  border: 2px solid #5c47d3;
+  font-size: 16px;
+}
+
+section.hidden {
+  display: none;
+}
+
+section.results {
+  height: 420px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.results h1 {
+  height: 110px;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+section.results .infos {
+  background-color: #f2f2f2;
+  height: 100px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-weight: bold;
+}
